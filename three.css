@@ -1,0 +1,78 @@
+.body {
+    background-color: rgb(125, 243, 243);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: optional; 
+    font-size: medium;
+    color: rgb(239, 232, 232);
+}
+   
+.header {
+text-align: center;
+margin: auto;
+text-size-adjust: 50px;
+-webkit-text-stroke: 3px rgb(2, 55, 2);
+}
+.logo::after {
+    clear: both;
+    display:clear;
+    content: icon;
+    float: left;
+    width: auto;
+
+}
+.statement {
+text-align: center;
+color: rgb(2, 8, 8);
+border: solid yellow;
+}
+.opening {
+text-align: center;
+font-weight: bold;
+font-size: larger;
+border-bottom: 1px yellow;
+}
+.fastfood {
+
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+color: black;
+box-sizing: border-box;
+
+}
+.column {
+    float: left;
+width: 25%;
+padding: 3px;
+}
+.column > img {
+    height: 100px;
+}
+.eateries {
+    border: solid red;
+    font-weight: bold;
+}
+.finedine {
+    border: solid blue;
+    font-style: inherit;
+    font-weight: lighter;
+    color: blueviolet;
+}
+.row > img {
+    height: 100px;
+}
+.row {
+    float: left;
+    width: 35.33%;
+    padding: 4px;
+}
+.times {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+}
+.Hours {
+    border: solid yellowgreen;
+    color: brown;
+}
