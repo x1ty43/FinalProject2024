@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(111, 218, 218);
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  body {
+    background-color: rgb(192, 235, 250);
+  }
+
+.head {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    
+}  
+
+.company {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.whysolar {
+    text-align: center;
+}
+
