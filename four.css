@@ -31,20 +31,33 @@ ul {
     color: black;
     font-size: 50px;
     
+    
 }  
 
 .company {
     text-align: center;
     font-size: 30px;
-    color: black;
+    
+}
+
+.location {
+    text-align: center;
 }
 
 .aboutus {
     text-align: center;
+    font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .whysolar {
     text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    
 }
 
 .farmphoto {
@@ -60,4 +73,15 @@ ul {
 
 .location {
     text-align: center;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.solarlist {
+    font-size: 18px;
+    height: 80px;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
