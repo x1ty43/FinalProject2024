@@ -1,16 +1,21 @@
-ul {
+.navlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 5px double whitesmoke;
+    background-color: rgb(87, 133, 161);
+    
+    
+    
   }
 
-  li {
-    float: left;
-  }
-
-  li a {
+  
+  .homelink {
     display: block;
     color: white;
     text-align: center;
@@ -18,8 +23,15 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover {
-    background-color: #111;
+  .homelink:hover {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    
   }
 
   body {
@@ -84,4 +96,37 @@ ul {
     font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footone {
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.foottwo {
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+
+.footthree {
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+
+.footimg {
+  margin-left: 40%;
+}
+
+.footfont {
+  color: rgb(90, 186, 247);
 }
