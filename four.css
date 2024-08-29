@@ -130,3 +130,19 @@
 .footfont {
   color: rgb(90, 186, 247);
 }
+
+.back {
+  text-align: center;
+  color: black;
+}
+
+.back a {
+  text-decoration: none;
+  color: black;
+}
+
+.back a:hover {
+  background-color: white;
+  font-size: 25px;
+  
+}
