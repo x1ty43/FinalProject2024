@@ -51,9 +51,10 @@ ul {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 2%;
+  margin: 2%; 
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
+
