@@ -41,7 +41,11 @@ ul {
     vertical-align: middle;
     font-weight: bold;
     font-size: 50;
-=  }
+  }
+
+  .image {
+    text-align: center;
+  }
 
 .foot {
   display: flex;
