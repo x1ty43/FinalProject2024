@@ -1,3 +1,17 @@
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 5px double whitesmoke;
+    background-color: rgb(23, 21, 167);
+
+}
+
 body {
     background-color:rgb(49, 44, 44)
 }
@@ -33,9 +47,27 @@ body {
 .header3 {
     color: white;
     text-align: center;
+    font-size: 75px;
 }
 
 .three {
     text-align: center;
     
+}
+
+#specialmovienights {
+    border-style: solid;
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.schedule-item1 {
+    text-align: center;
+    border-style: solid;
+}
+
+.schedule-item2 {
+    text-align: center;
+    border-style: solid;
 }
